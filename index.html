@@ -19,22 +19,103 @@
     <link rel="stylesheet" href="style.css" />
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script defer src="script.js"></script>
   </head>
   <body class="grey lighten-5">
-    <header class="green center-align">
-      <a href="index.html">
-        <img
-          src="img/locaator-logo-white.png"
-          class="logo"
-          alt="Locaator Logo"
-        />
-      </a>
+    <header>
+      <nav>
+        <div class="nav-wrapper green">
+          <a href="index.html" class="brand-logo center">
+            <img
+              src="img/locaator-logo-white.png"
+              class="logo"
+              alt="Locaator Logo"
+            />
+            <!-- <i class="large material-icons left">pin_drop</i>Locaator -->
+          </a>
+        </div>
+      </nav>
     </header>
 
     <div class="btn-container">
-      <button class="waves-effect waves-light btn-large green">
+      <button class="waves-effect waves-light btn-large green btn-location">
         <i class="material-icons left">place</i>Where am i?
       </button>
     </div>
+
+    <main>
+      <!-- <div class="error center-align">
+        <div class="red lighten-2 error-box center-align">
+          <p class="white-text flow-text">
+            Error! Get Your Shit Together, PLS!
+          </p>
+        </div>
+        <button class="waves-effect waves-light btn-large green btn-try-again">
+          <i class="material-icons left">rocket</i>Try Again
+        </button>
+      </div> -->
+      <!-- <div class="container">
+        <article class="location">
+          <div class="location-current center-align">
+            <h3>Your Current Location:</h3>
+            <h4><em>Rome, Italy</em></h4>
+          </div>
+
+          <div class="row">
+            <div class="col s12 m6 offset-m3 xl4 offset-xl4">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/1200px-Flag_of_Bulgaria.svg.png"
+                    alt="country flag"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title">Italy</span>
+                  <p class="grey-text region">Europe</p>
+                  <p><span class="card-icons">👫</span>POP people</p>
+                  <p><span class="card-icons">🗣️</span>LANG</p>
+                  <p><span class="card-icons">💰</span>CUR</p>
+                  <p><span class="card-icons">🏫</span>CAPITAL</p>
+                </div>
+                <div class="card-action center-align">
+                  <button
+                    class="waves-effect waves-light btn green btn-neighbours"
+                  >
+                    Show Neighbours
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div> -->
+
+      <!-- <div class="container hidden">
+        <article class="neighbours">
+          <h5 class="center-align">Neighbours:</h5>
+          <div class="row neighbours__grid">
+            <div class="col s12 m6 l4">
+              <div class="card">
+                <div class="card-image">
+                  <img
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/1200px-Flag_of_Bulgaria.svg.png"
+                    alt="country flag"
+                  />
+                </div>
+                <div class="card-content">
+                  <span class="card-title">Italy</span>
+                  <p class="grey-text region">Europe</p>
+                  <p><span class="card-icons">👫</span>POP people</p>
+                  <p><span class="card-icons">🗣️</span>LANG</p>
+                  <p><span class="card-icons">💰</span>CUR</p>
+                  <p><span class="card-icons">🏫</span>CAPITAL</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div> -->
+    </main>
   </body>
 </html>

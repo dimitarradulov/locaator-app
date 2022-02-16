@@ -4,11 +4,45 @@
   height: auto;
 }
 
-.btn-container {
+.btn-container,
+.error {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.nav-wrapper {
+  overflow: hidden;
+}
+
+.location-current {
+  margin-bottom: 1.5rem;
+}
+
+.card-icons {
+  margin-right: 0.5rem;
+}
+
+.card-content p:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+
+.card-image img {
+  height: 15rem;
+}
+
+.region {
+  margin-bottom: 1.25rem !important;
+}
+
+.hidden {
+  display: none;
+}
+
+.error-box {
+  padding: 0.1rem 1rem;
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 400px) {
