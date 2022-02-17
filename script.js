@@ -10,7 +10,12 @@ const geolocation = () => {
   return new Promise((resolve, reject) => {
     navigator.geolocation.getCurrentPosition(
       (position) => resolve(position),
-      () => reject(new Error("Sorry, we couldn't get your location! 😞"))
+      () =>
+        reject(
+          new Error(
+            "Sorry, we couldn't get your location. This happens if you have blocked the location tracking! 😞"
+          )
+        )
     );
   });
 };
@@ -154,9 +159,9 @@ const renderError = (err) => {
         ${err.message}
       </p>
     </div>
-    <button class="waves-effect waves-light btn-large green btn-try-again">
-      <i class="material-icons left">rocket</i>Try Again
-    </button>
+    <a href="index.html" class="waves-effect waves-light btn-large green btn-try-again">
+      <i class="material-icons left">rocket</i>HOME PAGE
+    </a>
   </div>
   `;
   main.insertAdjacentHTML('beforeend', html);

@@ -45,6 +45,10 @@
   margin-bottom: 1rem;
 }
 
+.btn-try-again {
+  margin-top: 1rem;
+}
+
 @media screen and (max-width: 400px) {
   .btn-large {
     padding: 0 25px;
