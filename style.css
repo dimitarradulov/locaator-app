@@ -53,7 +53,9 @@
   .btn-large {
     padding: 0 25px;
   }
+}
 
+@media screen and (max-width: 600px) {
   .logo {
     margin-top: -0.4rem;
   }
