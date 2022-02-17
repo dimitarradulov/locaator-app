@@ -53,4 +53,8 @@
   .btn-large {
     padding: 0 25px;
   }
+
+  .logo {
+    margin-top: -0.4rem;
+  }
 }
