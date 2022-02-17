@@ -5,6 +5,15 @@ const main = document.querySelector('main');
 const btnContainer = document.querySelector('.btn-container');
 // const neighboursGrid = document.querySelector('.neighbours__grid');
 
+// **** MATERIALIZE MOBILE NAV ACTIVATION ***
+document.addEventListener('DOMContentLoaded', function () {
+  const elems = document.querySelectorAll('.sidenav');
+  const options = {
+    edge: 'right',
+  };
+  const instances = M.Sidenav.init(elems, options);
+});
+
 // *** FUNCTIONS ***
 const geolocation = () => {
   return new Promise((resolve, reject) => {
