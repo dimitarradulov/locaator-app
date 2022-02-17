@@ -13,7 +13,7 @@ const geolocation = () => {
       () =>
         reject(
           new Error(
-            "Sorry, we couldn't get your location. This happens if you have blocked the location tracking! 😞"
+            "Sorry, we couldn't get your location. This happens if you have blocked the location access! 😞"
           )
         )
     );
