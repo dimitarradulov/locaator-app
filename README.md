@@ -3,7 +3,7 @@
 
 ***Technologies and techniques used:***
 * Materialize CSS
-* Promisifying
+* Promisification
 * Async/Await
 * Fetch API
 * Geolocation API
