@@ -3,7 +3,7 @@ Finds your current location and displays it on the screen with the country and i
 
 ![image](./img/app-preview.PNG)
 
-## Technologies used
+## Technologies & techniques used
 * Materialize 1.0.0
 * Promisification
 * Async/Await
